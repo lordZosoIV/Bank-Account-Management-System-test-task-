@@ -1,0 +1,36 @@
+#Current Account opened with ID: 17
+Deposited: 1.0
+New balance: 1.0
+Withdrawn: 201.0
+New balance: -200.0
+"Savings Account opened with ID: 6
+Initial deposit: 3000
+Withdrawn: 1500.0
+New balance: 1500.0
+"Current Account opened with ID: 7
+#Current Account opened with ID: 11
+Deposited: 1000.0
+New balance: 1000.0
+#Savings Account opened with ID: 13
+Initial deposit: 2000
+Deposited: 1000.0
+New balance: 3000.0
+	#Savings Account opened with ID: 10
+	Initial deposit: 3000
+
+"Current Account opened with ID: 8
+
+Deposited: 1000.0
+
+New balance: 1000.0
+
+Withdrawn: 2500.0
+
+New balance: -1500.0
+"Savings Account opened with ID: 5
+Initial deposit: 3000
+"Current Account opened with ID: 9
+Deposited: 1000.0
+New balance: 1000.0
+Withdrawn: 500.0
+New balance: 500.0

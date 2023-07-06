@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AccountServiceTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-07-06T13:30:31" hostname="johnswon-ThinkPad-X1-Carbon-Gen-9" time="0.033">
+  <properties/>
+  <testcase name="testWithdrawFromCurrentAccountWithNegativeBalance()" classname="AccountServiceTest" time="0.017"/>
+  <testcase name="testWithdrawFromNonexistentAccount()" classname="AccountServiceTest" time="0.002"/>
+  <testcase name="testWithdrawFromSavingsAccount()" classname="AccountServiceTest" time="0.001"/>
+  <testcase name="testOpenCurrentAccount()" classname="AccountServiceTest" time="0.0"/>
+  <testcase name="testWithdrawFromCurrentAccountWithInsufficientBalance()" classname="AccountServiceTest" time="0.002"/>
+  <testcase name="testAccountExists()" classname="AccountServiceTest" time="0.001"/>
+  <testcase name="testDepositToSavingsAccount()" classname="AccountServiceTest" time="0.001"/>
+  <testcase name="testWithdrawFromSavingsAccountWithInsufficientBalance()" classname="AccountServiceTest" time="0.001"/>
+  <testcase name="testWithdrawFromCurrentAccount()" classname="AccountServiceTest" time="0.0"/>
+  <testcase name="testOpenSavingsAccount()" classname="AccountServiceTest" time="0.0"/>
+  <testcase name="testWithdrawFromCurrentAccountWithinBalance()" classname="AccountServiceTest" time="0.0"/>
+  <system-out><![CDATA[Current Account opened with ID: 17
+Deposited: 1.0
+New balance: 1.0
+Withdrawn: 201.0
+New balance: -200.0
+Savings Account opened with ID: 6
+Initial deposit: 3000
+Withdrawn: 1500.0
+New balance: 1500.0
+Current Account opened with ID: 7
+Current Account opened with ID: 11
+Deposited: 1000.0
+New balance: 1000.0
+Savings Account opened with ID: 13
+Initial deposit: 2000
+Deposited: 1000.0
+New balance: 3000.0
+Savings Account opened with ID: 10
+Initial deposit: 3000
+Current Account opened with ID: 8
+Deposited: 1000.0
+New balance: 1000.0
+Withdrawn: 2500.0
+New balance: -1500.0
+Savings Account opened with ID: 5
+Initial deposit: 3000
+Current Account opened with ID: 9
+Deposited: 1000.0
+New balance: 1000.0
+Withdrawn: 500.0
+New balance: 500.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
